@@ -1,5 +1,30 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "express": "^4.18.1"
+=======
+  "name": "node",
+  "version": "1.0.0",
+  "description": "ejercicios node para la escuela codenotch",
+  "main": "reto1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-tomic-code/Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-tomic-code/Node/issues"
+  },
+  "homepage": "https://github.com/A-tomic-code/Node#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readfile": "^1.0.1",
+    "readline": "^1.3.0",
+    "writefile": "^0.2.8"
+>>>>>>> 7e586bb (termino dia 1)
   }
 }
