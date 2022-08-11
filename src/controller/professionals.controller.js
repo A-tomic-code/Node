@@ -64,8 +64,8 @@ function postProfessionals(req, res) {
     } else {
         response = {
             error:true,
-            code: 200,
-            message: 'Object created'
+            code: 400,
+            message: 'Bad request'
         }
     }
 
