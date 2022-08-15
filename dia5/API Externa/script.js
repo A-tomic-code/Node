@@ -111,8 +111,10 @@ function getData(){
         row_movmientos.appendChild(TD_movimientosPokemon);
 
         //fade-in
+
         let wrapper_opacity = Number(document.querySelector('.data-wrapper').style.opacity)
         let table_opacity = Number(table.style.opacity)
+
         let timer = setInterval(() => {
             table_opacity += 0.1;
             wrapper_opacity += 0.1;
@@ -128,6 +130,6 @@ function getData(){
     
 
     .catch((e) => {
-        alert(e)
+        alert('Ha ocurrido un error >> ' + e)
     })
 }
