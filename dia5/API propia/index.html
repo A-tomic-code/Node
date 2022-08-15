@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API REST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="page">
+            <div class="title">
+                <h1>Consumo API propia</h1>
+            </div>
+
+            <div class="form-wrapper">
+
+                <form class="form">
+                    <div class="form__data">
+                        <input type="text" placeholder="id" id="id">
+                        <input type="text" placeholder="nombre" id="nombre">
+                        <input type="text" placeholder="edad" id="edad">
+                        <input type="text" placeholder="genero" id="genero">
+                        <input type="text" placeholder="peso" id="peso">
+                        <input type="text" placeholder="altura" id="altura">
+                        <input type="text" placeholder="color de ojos" id="color_ojos">
+                        <input type="text" placeholder="raza" id="raza">
+                        <input type="text" placeholder="retirado" id="retirado">
+                        <input type="text" placeholder="nacionalidad" id="nacionalidad">
+                        <input type="text" placeholder="profesion" id="profesion">
+                        <input type="text" placeholder="Numero de Oscar" id="oscar">
+                    </div>
+
+                    <div class="form__buttons">
+                        <button type="button" onclick="get()">GET</button>
+                        <button type="button" onclick="post()">POST</button>
+                        <button type="button" onclick="put()">PUT</button>
+                        <button type="button" onclick="del()">DELETE</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="table">
+   
+                </table>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="Professional.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

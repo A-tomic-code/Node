@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+:root {
+  --secondary-color: rgb(55, 77, 77);
+  --primary-color: rgb(12, 1, 6);
+  --background-component: rgba(230, 217, 197, 0.5);
+}
+
+html {
+  background: url(Pokémon-Logo-PNG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  color: var(--primary-color);
+}
+.title h1 {
+  text-align: center;
+  font-size: 500%;
+  font-family: "Silkscreen", cursive;
+  color: yellow;
+  -webkit-text-stroke: 2px blue;
+  text-shadow: 5px 3px 0px blue;
+  width: fit-content;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-component {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: center; */
+
+  width: 90%;
+  padding: 1%;
+
+  border-radius: 10px;
+  background-color: var(--background-component);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  backdrop-filter: blur(5px);
+
+  box-shadow: 0px 5px 10px rgb(81, 72, 82);
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1%;
+
+  margin-bottom: 2%;
+  padding: 1%;
+}
+.form-wrapper p {
+  width: fit-content;
+  margin: 0;
+}
+.form-wrapper input[type="text"] {
+  flex-grow: 1;
+}
+.form-wrapper button,
+.form-wrapper input[type="text"] {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+.form-wrapper input[type="text"] {
+  border: 2px solid var(--primary-color);
+  outline: none;
+}
+.form-wrapper button:hover {
+  background-color: rgba(235, 190, 106, 0.212);
+}
+.form-wrapper input[type="text"],
+.form-wrapper > button,
+.form-wrapper > p {
+  padding: 1%;
+}
+.data-wrapper {
+  opacity: 0;
+}
+
+.table {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+
+  border-bottom: none;
+  border-right: none;
+}
+th,
+td {
+  border-right: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+td {
+  padding: 1%;
+  border-right: 1px solid var(--primary-color);
+}

@@ -40,7 +40,6 @@ function getProfessionals(req, res) {
         };
     }
 
-    console.log(query);
     res.send(response);
 }
 
@@ -51,7 +50,7 @@ function postProfessionals(req, res) {
         let {name, age, genre, weight,height ,eyeColor, race, isRetired,
              nationality, oscarsNumber, profession} = req.body;
 
-        tmp = new Professional(name, genre, age, weight, height, eyeColor,
+        tmp = new Professional(name, age, genre, weight, height, eyeColor,
              race, isRetired, nationality, oscarsNumber, profession);
 
         data_center.push(tmp); //lo guardo
@@ -79,7 +78,7 @@ function putProfessionals(req, res) {
         let {id, name, age, genre, weight,height ,eyeColor, race, isRetired,
              nationality, oscarsNumber, profession} = req.body;
 
-        tmp = new Professional(name, genre, age, weight, height, eyeColor,
+        tmp = new Professional(name, age, genre, weight, height, eyeColor,
              race, isRetired, nationality, oscarsNumber, profession);
 
         data_center[id] = tmp;

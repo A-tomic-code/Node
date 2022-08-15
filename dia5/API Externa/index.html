@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKé API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="title">
+                <h1 class="page-component">PokéAPI</h1>
+            </div>
+        </header>
+
+        <div class="page">
+
+            <div class="form-wrapper page-component">
+                <p>https://pokeapi.com/api/v2/pokemon/</p>
+                <input type="text" id="suffix_url" placeholder="Introduce el nombre de un pokemon">
+                <button onclick="getData()">Buscar</button>
+            </div>
+            <div class="data-wrapper  page-component">
+                <table class="table">
+                </table>
+            </div>
+
+          
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
